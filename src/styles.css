@@ -1,0 +1,89 @@
+:root{
+    --primary: #030B62;
+}
+
+body{
+    background-color: #c1c1c1;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header{
+    background-image: url("hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: 100vw;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+.profile{
+    background-color: #FFF;
+    margin-top: -250px;
+}
+
+.profile-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profile-avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 5rem;
+}
+
+.profile-photo{
+    max-width: 15rem;
+    border-radius: 50%;
+}
+
+.profile-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    color: var(--primary);
+}
+
+.profile-career{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.profile-info{
+    padding: 2.5rem;
+    padding-left: 0;
+}
+
+.profile-about{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.profile-summary{
+    line-height: 1.75;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.profile-data{
+    font-size: .875rem;
+    margin-bottom: 1rem;
+}
+
+.profile-label{
+    display: inline-block;
+    font-weight: 700;
+    width: 7rem;
+}
